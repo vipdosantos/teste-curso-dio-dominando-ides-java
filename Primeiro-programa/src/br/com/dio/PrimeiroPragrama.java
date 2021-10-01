@@ -6,10 +6,10 @@ public class PrimeiroPragrama {
 
 	public static void main(String[] args) {
 		Gato gato = new Gato();
-		 Livros livros = new Livros();
+		 Livros Livros = new Livros();
 		
 		System.out.println(gato);
-		System.out.println(livros);
+		System.out.println(Livros);
 		
 		/*int a = 2;
 		int b = 3;
@@ -17,7 +17,11 @@ public class PrimeiroPragrama {
 
 	}
 }
-class livros {
-	private String nome;
-	private String numPaginas;
-}
+
+class Livros{ 
+	private int  nome;
+	private int  numPaginas; 
+  }
+
+
+
